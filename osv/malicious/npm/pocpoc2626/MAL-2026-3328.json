@@ -1,5 +1,5 @@
 {
-  "modified": "2026-05-04T16:36:10Z",
+  "modified": "2026-05-04T17:38:11Z",
   "published": "2026-05-04T16:36:10Z",
   "schema_version": "1.7.4",
   "id": "MAL-2026-3328",
@@ -12,7 +12,8 @@
         "name": "pocpoc2626"
       },
       "versions": [
-        "99.99.9998"
+        "99.99.9998",
+        "100.0.5"
       ]
     }
   ],
@@ -29,12 +30,21 @@
   "database_specific": {
     "malicious-packages-origins": [
       {
+        "source": "ossf-package-analysis",
+        "sha256": "0176ec0fde390432553ec3dffa91438e5e923d23549ef4b836bc91de5259a21d",
         "import_time": "2026-05-04T16:39:00.308413379Z",
         "modified_time": "2026-05-04T16:36:10Z",
-        "sha256": "0176ec0fde390432553ec3dffa91438e5e923d23549ef4b836bc91de5259a21d",
-        "source": "ossf-package-analysis",
         "versions": [
           "99.99.9998"
+        ]
+      },
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "b4744f62b321959f843350974284f2a501ea2e1e80c5ca0d9a2affd0f620b9c4",
+        "import_time": "2026-05-04T17:36:20.402188861Z",
+        "modified_time": "2026-05-04T17:05:53Z",
+        "versions": [
+          "100.0.5"
         ]
       }
     ]
