@@ -1,0 +1,42 @@
+{
+  "modified": "2026-05-04T09:30:54Z",
+  "published": "2026-05-04T09:30:54Z",
+  "schema_version": "1.7.4",
+  "id": "",
+  "summary": "Malicious code in @bank-widgets/whats-new (npm)",
+  "details": "The OpenSSF Package Analysis project identified '@bank-widgets/whats-new' @ 99.0.7 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package executes one or more commands associated with malicious behavior.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@bank-widgets/whats-new"
+      },
+      "versions": [
+        "99.0.7"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "type": "FINDER",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ]
+    }
+  ],
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "1b3b286dae8135d4e755a4fc68e87c251813c5fe11217def3f0464b1b9244267",
+        "import_time": "2026-05-04T23:49:24.410821544Z",
+        "modified_time": "2026-05-04T09:30:54Z",
+        "versions": [
+          "99.0.7"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "modified": "2026-05-04T13:25:23Z",
+  "published": "2026-05-04T13:25:23Z",
+  "schema_version": "1.7.4",
+  "id": "",
+  "summary": "Malicious code in axis-ui-generator (npm)",
+  "details": "The OpenSSF Package Analysis project identified 'axis-ui-generator' @ 100.0.0 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package executes one or more commands associated with malicious behavior.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "axis-ui-generator"
+      },
+      "versions": [
+        "100.0.0"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "type": "FINDER",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ]
+    }
+  ],
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "90de69a4a2fbda9d89749269d38cd963912c3a26cfcb8240565d993f7f6cf308",
+        "import_time": "2026-05-04T23:49:26.695186656Z",
+        "modified_time": "2026-05-04T13:25:23Z",
+        "versions": [
+          "100.0.0"
+        ]
+      }
+    ]
+  }
+}
