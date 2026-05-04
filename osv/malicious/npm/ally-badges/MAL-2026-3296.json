@@ -1,5 +1,5 @@
 {
-  "modified": "2026-05-03T12:19:16Z",
+  "modified": "2026-05-04T23:51:16Z",
   "published": "2026-05-03T12:19:16Z",
   "schema_version": "1.7.4",
   "id": "MAL-2026-3296",
@@ -12,7 +12,8 @@
         "name": "ally-badges"
       },
       "versions": [
-        "99.99.99"
+        "99.99.99",
+        "100.0.0"
       ]
     }
   ],
@@ -29,12 +30,21 @@
   "database_specific": {
     "malicious-packages-origins": [
       {
+        "source": "ossf-package-analysis",
+        "sha256": "ebfa91be5b58a7ed2d794532ab17ebbb09da73116e9d5d118ce52e61d8daeed4",
         "import_time": "2026-05-04T03:13:21.167382862Z",
         "modified_time": "2026-05-03T12:19:16Z",
-        "sha256": "ebfa91be5b58a7ed2d794532ab17ebbb09da73116e9d5d118ce52e61d8daeed4",
-        "source": "ossf-package-analysis",
         "versions": [
           "99.99.99"
+        ]
+      },
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "2a2ecea8323354b8496b71bc94d428ec043d3b7a39aacf5dcc40169cc6719cf2",
+        "import_time": "2026-05-04T23:49:26.804471058Z",
+        "modified_time": "2026-05-04T13:25:49Z",
+        "versions": [
+          "100.0.0"
         ]
       }
     ]

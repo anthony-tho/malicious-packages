@@ -1,5 +1,5 @@
 {
-  "modified": "2026-05-03T12:37:25Z",
+  "modified": "2026-05-04T23:51:15Z",
   "published": "2026-05-03T12:37:25Z",
   "schema_version": "1.7.4",
   "id": "MAL-2026-3292",
@@ -12,7 +12,8 @@
         "name": "@breeze-ai/ui-library"
       },
       "versions": [
-        "99.99.99"
+        "99.99.99",
+        "100.0.0"
       ]
     }
   ],
@@ -29,12 +30,21 @@
   "database_specific": {
     "malicious-packages-origins": [
       {
+        "source": "ossf-package-analysis",
+        "sha256": "f677757a4641499293cb095b413a7f6c2b1fcb65513d4e73904fc2c1f50d51d0",
         "import_time": "2026-05-04T03:13:23.209392846Z",
         "modified_time": "2026-05-03T12:37:25Z",
-        "sha256": "f677757a4641499293cb095b413a7f6c2b1fcb65513d4e73904fc2c1f50d51d0",
-        "source": "ossf-package-analysis",
         "versions": [
           "99.99.99"
+        ]
+      },
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "15dbe9cb3e5e35ccc8ffc5b79ca775b354b10301d30e14487587c9726a90ff6f",
+        "import_time": "2026-05-04T23:49:25.618258709Z",
+        "modified_time": "2026-05-04T13:20:45Z",
+        "versions": [
+          "100.0.0"
         ]
       }
     ]

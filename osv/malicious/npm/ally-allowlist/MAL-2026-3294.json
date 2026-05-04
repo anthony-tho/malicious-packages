@@ -1,5 +1,5 @@
 {
-  "modified": "2026-05-03T12:49:22Z",
+  "modified": "2026-05-04T23:51:16Z",
   "published": "2026-05-03T12:49:22Z",
   "schema_version": "1.7.4",
   "id": "MAL-2026-3294",
@@ -12,7 +12,8 @@
         "name": "ally-allowlist"
       },
       "versions": [
-        "99.99.99"
+        "99.99.99",
+        "100.0.0"
       ]
     }
   ],
@@ -29,12 +30,21 @@
   "database_specific": {
     "malicious-packages-origins": [
       {
+        "source": "ossf-package-analysis",
+        "sha256": "419478c5fcf028d128ddef73603b5aeb1d46840f123c1b501805a3a1777409fb",
         "import_time": "2026-05-04T03:13:24.177983002Z",
         "modified_time": "2026-05-03T12:49:22Z",
-        "sha256": "419478c5fcf028d128ddef73603b5aeb1d46840f123c1b501805a3a1777409fb",
-        "source": "ossf-package-analysis",
         "versions": [
           "99.99.99"
+        ]
+      },
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "f7ddd4bbc6aa77592a9907a246bbcfe7535bd4c1e3c93b4e241199da6b1222f2",
+        "import_time": "2026-05-04T23:49:25.502093442Z",
+        "modified_time": "2026-05-04T13:20:45Z",
+        "versions": [
+          "100.0.0"
         ]
       }
     ]

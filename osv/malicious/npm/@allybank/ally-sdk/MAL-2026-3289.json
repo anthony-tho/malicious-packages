@@ -1,5 +1,5 @@
 {
-  "modified": "2026-05-03T12:59:27Z",
+  "modified": "2026-05-04T23:51:15Z",
   "published": "2026-05-03T12:59:27Z",
   "schema_version": "1.7.4",
   "id": "MAL-2026-3289",
@@ -12,7 +12,8 @@
         "name": "@allybank/ally-sdk"
       },
       "versions": [
-        "99.99.99"
+        "99.99.99",
+        "100.0.0"
       ]
     }
   ],
@@ -29,12 +30,21 @@
   "database_specific": {
     "malicious-packages-origins": [
       {
+        "source": "ossf-package-analysis",
+        "sha256": "67645939e4782ac1630fa76e169ab40440ba042733ae223bb3d4d77b1f635b86",
         "import_time": "2026-05-04T03:13:24.418270156Z",
         "modified_time": "2026-05-03T12:59:27Z",
-        "sha256": "67645939e4782ac1630fa76e169ab40440ba042733ae223bb3d4d77b1f635b86",
-        "source": "ossf-package-analysis",
         "versions": [
           "99.99.99"
+        ]
+      },
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "3c3d4db9ae2585348864ec057b0a480e779a1c3a5105e48afe33b025a8beb871",
+        "import_time": "2026-05-04T23:49:25.088674674Z",
+        "modified_time": "2026-05-04T13:20:42Z",
+        "versions": [
+          "100.0.0"
         ]
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "modified": "2026-05-03T12:19:25Z",
+  "modified": "2026-05-04T23:51:16Z",
   "published": "2026-05-03T12:19:25Z",
   "schema_version": "1.7.4",
   "id": "MAL-2026-3301",
@@ -12,7 +12,8 @@
         "name": "ally-json-threat-protect"
       },
       "versions": [
-        "99.99.99"
+        "99.99.99",
+        "100.0.0"
       ]
     }
   ],
@@ -29,12 +30,21 @@
   "database_specific": {
     "malicious-packages-origins": [
       {
+        "source": "ossf-package-analysis",
+        "sha256": "b1f5dfa6391ba7faeee6f55a12daf1b9d70618473d300a589657228d677b3e7e",
         "import_time": "2026-05-04T03:13:21.621661611Z",
         "modified_time": "2026-05-03T12:19:25Z",
-        "sha256": "b1f5dfa6391ba7faeee6f55a12daf1b9d70618473d300a589657228d677b3e7e",
-        "source": "ossf-package-analysis",
         "versions": [
           "99.99.99"
+        ]
+      },
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "8f83574bfbfa8c9f0ecd8c7b02d7da504e2ec873b3028d557f7c1fb3b2132e4e",
+        "import_time": "2026-05-04T23:49:28.047761195Z",
+        "modified_time": "2026-05-04T13:50:43Z",
+        "versions": [
+          "100.0.0"
         ]
       }
     ]
