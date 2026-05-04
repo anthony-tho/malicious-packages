@@ -1,0 +1,42 @@
+{
+  "modified": "2026-05-03T12:45:35Z",
+  "published": "2026-05-03T12:45:35Z",
+  "schema_version": "1.7.4",
+  "id": "",
+  "summary": "Malicious code in @athena-portal/themes (npm)",
+  "details": "The OpenSSF Package Analysis project identified '@athena-portal/themes' @ 99.99.99 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package executes one or more commands associated with malicious behavior.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@athena-portal/themes"
+      },
+      "versions": [
+        "99.99.99"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "type": "FINDER",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ]
+    }
+  ],
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "aa3913ddf35d2c11fae201b6e78548d49665c5aa9fabf1805f397db1830bce7f",
+        "import_time": "2026-05-04T03:13:24.088007325Z",
+        "modified_time": "2026-05-03T12:45:35Z",
+        "versions": [
+          "99.99.99"
+        ]
+      }
+    ]
+  }
+}

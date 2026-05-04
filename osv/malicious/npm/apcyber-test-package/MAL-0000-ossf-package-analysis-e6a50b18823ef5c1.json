@@ -1,0 +1,42 @@
+{
+  "modified": "2026-05-03T12:35:37Z",
+  "published": "2026-05-03T12:35:37Z",
+  "schema_version": "1.7.4",
+  "id": "",
+  "summary": "Malicious code in apcyber-test-package (npm)",
+  "details": "The OpenSSF Package Analysis project identified 'apcyber-test-package' @ 99.99.99 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package executes one or more commands associated with malicious behavior.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "apcyber-test-package"
+      },
+      "versions": [
+        "99.99.99"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "type": "FINDER",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ]
+    }
+  ],
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "e6a50b18823ef5c1ec2bac66ebde8c45a5b1c0601c2a25f7d9a5ca2ee9de6a4e",
+        "import_time": "2026-05-04T03:13:22.769645873Z",
+        "modified_time": "2026-05-03T12:35:37Z",
+        "versions": [
+          "99.99.99"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "modified": "2026-04-30T19:10:58Z",
+  "published": "2026-04-30T19:10:58Z",
+  "schema_version": "1.7.4",
+  "id": "",
+  "summary": "Malicious code in eslint-plugin-skyscanner-dates (npm)",
+  "details": "The OpenSSF Package Analysis project identified 'eslint-plugin-skyscanner-dates' @ 99.0.4 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package executes one or more commands associated with malicious behavior.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-skyscanner-dates"
+      },
+      "versions": [
+        "99.0.4"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "type": "FINDER",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ]
+    }
+  ],
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "dd3c0ecb95beda4fd2469c23d844511edb71fc703c6098892029a7309ee686f0",
+        "import_time": "2026-05-04T03:13:19.407085233Z",
+        "modified_time": "2026-04-30T19:10:58Z",
+        "versions": [
+          "99.0.4"
+        ]
+      }
+    ]
+  }
+}

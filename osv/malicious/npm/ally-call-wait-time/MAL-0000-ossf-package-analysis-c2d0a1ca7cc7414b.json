@@ -1,0 +1,42 @@
+{
+  "modified": "2026-05-03T12:59:35Z",
+  "published": "2026-05-03T12:59:35Z",
+  "schema_version": "1.7.4",
+  "id": "",
+  "summary": "Malicious code in ally-call-wait-time (npm)",
+  "details": "The OpenSSF Package Analysis project identified 'ally-call-wait-time' @ 99.99.99 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package executes one or more commands associated with malicious behavior.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "ally-call-wait-time"
+      },
+      "versions": [
+        "99.99.99"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "type": "FINDER",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ]
+    }
+  ],
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "c2d0a1ca7cc7414bc364d4bc0b6474660711cfdcf8e522499692e26afd555ff6",
+        "import_time": "2026-05-04T03:13:24.557535395Z",
+        "modified_time": "2026-05-03T12:59:35Z",
+        "versions": [
+          "99.99.99"
+        ]
+      }
+    ]
+  }
+}

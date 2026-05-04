@@ -1,0 +1,42 @@
+{
+  "modified": "2026-05-03T12:35:31Z",
+  "published": "2026-05-03T12:35:31Z",
+  "schema_version": "1.7.4",
+  "id": "",
+  "summary": "Malicious code in axis-abc-search-address (npm)",
+  "details": "The OpenSSF Package Analysis project identified 'axis-abc-search-address' @ 99.99.99 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package executes one or more commands associated with malicious behavior.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "axis-abc-search-address"
+      },
+      "versions": [
+        "99.99.99"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "type": "FINDER",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ]
+    }
+  ],
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "7cf11f479f198bd2d738c695692678985a9d3e3c7fc415c38393a8ffc95d7ea7",
+        "import_time": "2026-05-04T03:13:22.593024797Z",
+        "modified_time": "2026-05-03T12:35:31Z",
+        "versions": [
+          "99.99.99"
+        ]
+      }
+    ]
+  }
+}

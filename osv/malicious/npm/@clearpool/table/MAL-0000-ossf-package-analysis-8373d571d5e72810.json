@@ -1,0 +1,42 @@
+{
+  "modified": "2026-05-03T12:25:51Z",
+  "published": "2026-05-03T12:25:51Z",
+  "schema_version": "1.7.4",
+  "id": "",
+  "summary": "Malicious code in @clearpool/table (npm)",
+  "details": "The OpenSSF Package Analysis project identified '@clearpool/table' @ 99.99.99 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package executes one or more commands associated with malicious behavior.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@clearpool/table"
+      },
+      "versions": [
+        "99.99.99"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "type": "FINDER",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ]
+    }
+  ],
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "8373d571d5e72810442e5125ae56eac20b4cdfb9e12ef12ce5abfbd9cfbb77a8",
+        "import_time": "2026-05-04T03:13:22.130551824Z",
+        "modified_time": "2026-05-03T12:25:51Z",
+        "versions": [
+          "99.99.99"
+        ]
+      }
+    ]
+  }
+}

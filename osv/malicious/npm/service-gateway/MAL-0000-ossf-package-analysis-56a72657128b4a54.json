@@ -1,0 +1,42 @@
+{
+  "modified": "2026-04-30T21:30:37Z",
+  "published": "2026-04-30T21:30:37Z",
+  "schema_version": "1.7.4",
+  "id": "",
+  "summary": "Malicious code in service-gateway (npm)",
+  "details": "The OpenSSF Package Analysis project identified 'service-gateway' @ 50.50.50 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "service-gateway"
+      },
+      "versions": [
+        "50.50.50"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "type": "FINDER",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ]
+    }
+  ],
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "56a72657128b4a5429a84c4456d57d0d73f46ce2d36de36d3e9c0372af065c80",
+        "import_time": "2026-05-04T03:13:19.507434617Z",
+        "modified_time": "2026-04-30T21:30:37Z",
+        "versions": [
+          "50.50.50"
+        ]
+      }
+    ]
+  }
+}

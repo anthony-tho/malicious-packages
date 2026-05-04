@@ -1,0 +1,42 @@
+{
+  "modified": "2026-05-03T12:35:41Z",
+  "published": "2026-05-03T12:35:41Z",
+  "schema_version": "1.7.4",
+  "id": "",
+  "summary": "Malicious code in @breezeai-frontend/tailwind-config (npm)",
+  "details": "The OpenSSF Package Analysis project identified '@breezeai-frontend/tailwind-config' @ 99.99.99 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package executes one or more commands associated with malicious behavior.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@breezeai-frontend/tailwind-config"
+      },
+      "versions": [
+        "99.99.99"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "type": "FINDER",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ]
+    }
+  ],
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "5191702f2f83e003cfcf35e73e89379f2bc00ea802baf50b2d2f4e25744743a4",
+        "import_time": "2026-05-04T03:13:22.887232947Z",
+        "modified_time": "2026-05-03T12:35:41Z",
+        "versions": [
+          "99.99.99"
+        ]
+      }
+    ]
+  }
+}
