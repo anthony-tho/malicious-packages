@@ -1,0 +1,42 @@
+{
+  "modified": "2026-05-01T15:01:09Z",
+  "published": "2026-05-01T15:01:09Z",
+  "schema_version": "1.7.4",
+  "id": "MAL-2026-3314",
+  "summary": "Malicious code in update-browserslist (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (e29d806736ad7afce9367b004ad5ab1dbbde834ae2d51ae79b26d1f27f91ff7f)\nThe OpenSSF Package Analysis project identified 'update-browserslist' @ 99.1.1 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "update-browserslist"
+      },
+      "versions": [
+        "99.1.1"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "type": "FINDER",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ]
+    }
+  ],
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "import_time": "2026-05-04T03:13:20.442230137Z",
+        "modified_time": "2026-05-01T15:01:09Z",
+        "sha256": "e29d806736ad7afce9367b004ad5ab1dbbde834ae2d51ae79b26d1f27f91ff7f",
+        "source": "ossf-package-analysis",
+        "versions": [
+          "99.1.1"
+        ]
+      }
+    ]
+  }
+}

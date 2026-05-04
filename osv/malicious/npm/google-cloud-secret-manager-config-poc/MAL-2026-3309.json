@@ -1,0 +1,42 @@
+{
+  "modified": "2026-05-03T16:10:57Z",
+  "published": "2026-05-03T16:10:57Z",
+  "schema_version": "1.7.4",
+  "id": "MAL-2026-3309",
+  "summary": "Malicious code in google-cloud-secret-manager-config-poc (npm)",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (daa2f2438668b4ed2d4a869c9cd52cc3e989b235e08652eb8a041db22c222ae2)\nThe OpenSSF Package Analysis project identified 'google-cloud-secret-manager-config-poc' @ 99.9.14 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package executes one or more commands associated with malicious behavior.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "google-cloud-secret-manager-config-poc"
+      },
+      "versions": [
+        "99.9.14"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "type": "FINDER",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ]
+    }
+  ],
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "import_time": "2026-05-04T03:13:24.730000059Z",
+        "modified_time": "2026-05-03T16:10:57Z",
+        "sha256": "daa2f2438668b4ed2d4a869c9cd52cc3e989b235e08652eb8a041db22c222ae2",
+        "source": "ossf-package-analysis",
+        "versions": [
+          "99.9.14"
+        ]
+      }
+    ]
+  }
+}

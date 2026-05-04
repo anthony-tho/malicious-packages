@@ -1,5 +1,5 @@
 {
-  "modified": "2026-04-23T20:50:51Z",
+  "modified": "2026-05-04T03:15:19Z",
   "published": "2026-04-14T10:53:25Z",
   "schema_version": "1.7.4",
   "id": "MAL-2026-2930",
@@ -13,7 +13,8 @@
       },
       "versions": [
         "1.0.10",
-        "1.0.11"
+        "1.0.11",
+        "1.0.12"
       ]
     }
   ],
@@ -62,6 +63,15 @@
         "versions": [
           "1.0.10",
           "1.0.11"
+        ]
+      },
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "69a980bf55ae1f73da093b3b7c1a29a2036d779a4eaefa932d35a7190bef8f56",
+        "import_time": "2026-05-04T03:13:19.953289264Z",
+        "modified_time": "2026-05-01T07:37:53Z",
+        "versions": [
+          "1.0.12"
         ]
       }
     ]
