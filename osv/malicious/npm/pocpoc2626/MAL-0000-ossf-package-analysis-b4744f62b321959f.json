@@ -1,0 +1,42 @@
+{
+  "modified": "2026-05-04T17:05:53Z",
+  "published": "2026-05-04T17:05:53Z",
+  "schema_version": "1.7.4",
+  "id": "",
+  "summary": "Malicious code in pocpoc2626 (npm)",
+  "details": "The OpenSSF Package Analysis project identified 'pocpoc2626' @ 100.0.5 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "pocpoc2626"
+      },
+      "versions": [
+        "100.0.5"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "type": "FINDER",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ]
+    }
+  ],
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "b4744f62b321959f843350974284f2a501ea2e1e80c5ca0d9a2affd0f620b9c4",
+        "import_time": "2026-05-04T17:36:20.402188861Z",
+        "modified_time": "2026-05-04T17:05:53Z",
+        "versions": [
+          "100.0.5"
+        ]
+      }
+    ]
+  }
+}
