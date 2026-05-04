@@ -2,9 +2,9 @@
   "modified": "2026-05-04T21:55:51Z",
   "published": "2026-05-04T21:55:51Z",
   "schema_version": "1.7.4",
-  "id": "",
+  "id": "MAL-2026-3334",
   "summary": "Malicious code in fanduel (npm)",
-  "details": "The OpenSSF Package Analysis project identified 'fanduel' @ 100.5.0 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (49d980743cd761f6fb629d32e14864e720d1269e4208ec9e0f075c5e9f6eb433)\nThe OpenSSF Package Analysis project identified 'fanduel' @ 100.5.0 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
   "affected": [
     {
       "package": {
@@ -29,10 +29,10 @@
   "database_specific": {
     "malicious-packages-origins": [
       {
-        "source": "ossf-package-analysis",
-        "sha256": "49d980743cd761f6fb629d32e14864e720d1269e4208ec9e0f075c5e9f6eb433",
         "import_time": "2026-05-04T22:25:14.069222425Z",
         "modified_time": "2026-05-04T21:55:51Z",
+        "sha256": "49d980743cd761f6fb629d32e14864e720d1269e4208ec9e0f075c5e9f6eb433",
+        "source": "ossf-package-analysis",
         "versions": [
           "100.5.0"
         ]
