@@ -1,0 +1,42 @@
+{
+  "modified": "2026-05-04T13:20:41Z",
+  "published": "2026-05-04T13:20:41Z",
+  "schema_version": "1.7.4",
+  "id": "",
+  "summary": "Malicious code in paychex-common-vendor-lib (npm)",
+  "details": "The OpenSSF Package Analysis project identified 'paychex-common-vendor-lib' @ 100.0.0 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n\n- The package executes one or more commands associated with malicious behavior.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "paychex-common-vendor-lib"
+      },
+      "versions": [
+        "100.0.0"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "type": "FINDER",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ]
+    }
+  ],
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "56ec286ed47dfe01871f3459bbf2c85defe54c4dd04034a318781c95304b0591",
+        "import_time": "2026-05-04T13:40:23.60862154Z",
+        "modified_time": "2026-05-04T13:20:41Z",
+        "versions": [
+          "100.0.0"
+        ]
+      }
+    ]
+  }
+}
