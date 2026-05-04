@@ -2,9 +2,9 @@
   "modified": "2026-05-04T19:42:20Z",
   "published": "2026-05-04T19:42:20Z",
   "schema_version": "1.7.4",
-  "id": "",
+  "id": "MAL-2026-3331",
   "summary": "Malicious code in lazyhtml-scripts (npm)",
-  "details": "The OpenSSF Package Analysis project identified 'lazyhtml-scripts' @ 99.9.1 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (71844816af603d74c0b28463789c32032f49ba227282ce2b9a735ecc9438bace)\nThe OpenSSF Package Analysis project identified 'lazyhtml-scripts' @ 99.9.1 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
   "affected": [
     {
       "package": {
@@ -29,10 +29,10 @@
   "database_specific": {
     "malicious-packages-origins": [
       {
-        "source": "ossf-package-analysis",
-        "sha256": "71844816af603d74c0b28463789c32032f49ba227282ce2b9a735ecc9438bace",
         "import_time": "2026-05-04T20:34:00.008159496Z",
         "modified_time": "2026-05-04T19:42:20Z",
+        "sha256": "71844816af603d74c0b28463789c32032f49ba227282ce2b9a735ecc9438bace",
+        "source": "ossf-package-analysis",
         "versions": [
           "99.9.1"
         ]
