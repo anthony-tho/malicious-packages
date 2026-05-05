@@ -1,5 +1,5 @@
 {
-  "modified": "2026-05-05T18:30:44Z",
+  "modified": "2026-05-05T19:38:21Z",
   "published": "2026-05-05T18:30:44Z",
   "schema_version": "1.7.4",
   "id": "MAL-2026-3347",
@@ -32,6 +32,14 @@
         "https://github.com/kam193",
         "https://bad-packages.kam193.eu/"
       ]
+    },
+    {
+      "name": "Kamil Mańkowski (kam193)",
+      "type": "REPORTER",
+      "contact": [
+        "https://github.com/kam193",
+        "https://bad-packages.kam193.eu/"
+      ]
     }
   ],
   "database_specific": {
@@ -42,11 +50,23 @@
     },
     "malicious-packages-origins": [
       {
-        "id": "pypi/2026-05-gemini-analyzer/gemini-analyzer",
-        "import_time": "2026-05-05T18:36:57.750663937Z",
-        "modified_time": "2026-05-05T18:30:44.340437Z",
-        "sha256": "1c8996b17229185440fe7523f20f72ea848f3a001baa8946ca80fa6b5d3221ad",
         "source": "kam193",
+        "sha256": "1c8996b17229185440fe7523f20f72ea848f3a001baa8946ca80fa6b5d3221ad",
+        "import_time": "2026-05-05T18:36:57.750663937Z",
+        "id": "pypi/2026-05-gemini-analyzer/gemini-analyzer",
+        "modified_time": "2026-05-05T18:30:44.340437Z",
+        "versions": [
+          "0.1.0",
+          "1.0.8",
+          "1.0.9"
+        ]
+      },
+      {
+        "source": "kam193",
+        "sha256": "f2e17180cfd7a5adb5ac77241cc1c90789178a29af48fde16c66fd7a908013fd",
+        "import_time": "2026-05-05T19:36:22.237386857Z",
+        "id": "pypi/2026-05-gemini-analyzer/gemini-analyzer",
+        "modified_time": "2026-05-05T18:30:44.340437Z",
         "versions": [
           "0.1.0",
           "1.0.8",
