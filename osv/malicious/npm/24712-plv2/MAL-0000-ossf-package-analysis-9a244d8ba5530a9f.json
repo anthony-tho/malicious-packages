@@ -1,0 +1,42 @@
+{
+  "modified": "2026-05-06T21:06:15Z",
+  "published": "2026-05-06T21:06:15Z",
+  "schema_version": "1.7.4",
+  "id": "",
+  "summary": "Malicious code in 24712-plv2 (npm)",
+  "details": "The OpenSSF Package Analysis project identified '24712-plv2' @ 0.0.2 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "24712-plv2"
+      },
+      "versions": [
+        "0.0.2"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "type": "FINDER",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ]
+    }
+  ],
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "9a244d8ba5530a9f6ace50d6842b1d5d4a8fde918c702d59f0655f9d9c738a98",
+        "import_time": "2026-05-06T21:29:36.392968534Z",
+        "modified_time": "2026-05-06T21:06:15Z",
+        "versions": [
+          "0.0.2"
+        ]
+      }
+    ]
+  }
+}
