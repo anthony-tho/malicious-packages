@@ -11,7 +11,9 @@
         "ecosystem": "npm",
         "name": "@item-shop-data/client"
       },
-  "versions": ["0.0.1"],
+      "versions": ["0.0.1"],
+    }
+  ],
   "credits": [
     {
       "name": "Amazon Inspector",
