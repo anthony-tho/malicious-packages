@@ -1,5 +1,5 @@
 {
-  "modified": "2026-05-06T13:47:02Z",
+  "modified": "2026-05-06T20:59:10Z",
   "published": "2026-05-06T13:46:28Z",
   "schema_version": "1.7.4",
   "id": "MAL-2026-3354",
@@ -33,13 +33,32 @@
     }
   ],
   "database_specific": {
+    "iocs": {
+      "domains": [
+        "contabo.e-kounoupidi.gr"
+      ],
+      "urls": [
+        "https://contabo.e-kounoupidi.gr/gotcha",
+        "https://contabo.e-kounoupidi.gr/gotchawebhook"
+      ]
+    },
     "malicious-packages-origins": [
       {
-        "id": "pypi/GENERIC-standard-pypi-install-pentest/playwright-acustomed",
-        "import_time": "2026-05-06T14:18:18.699932362Z",
-        "modified_time": "2026-05-06T13:47:02.138683Z",
-        "sha256": "b8b21055de687ebac89fc9e5697c34b70cc910702d263b841399783f75b139bd",
         "source": "kam193",
+        "sha256": "b8b21055de687ebac89fc9e5697c34b70cc910702d263b841399783f75b139bd",
+        "import_time": "2026-05-06T14:18:18.699932362Z",
+        "id": "pypi/GENERIC-standard-pypi-install-pentest/playwright-acustomed",
+        "modified_time": "2026-05-06T13:47:02.138683Z",
+        "versions": [
+          "0.1.0"
+        ]
+      },
+      {
+        "source": "kam193",
+        "sha256": "fe1360882db5299cd1267cfcbc1ffedee55294d23762047f190237f4a539f25d",
+        "import_time": "2026-05-06T20:57:19.780452909Z",
+        "id": "pypi/2026-05-playwright-acustomed/playwright-acustomed",
+        "modified_time": "2026-05-06T20:06:44.31241Z",
         "versions": [
           "0.1.0"
         ]

@@ -2,9 +2,9 @@
   "modified": "2026-05-06T20:07:00Z",
   "published": "2026-05-06T20:07:00Z",
   "schema_version": "1.7.4",
-  "id": "",
+  "id": "MAL-2026-3355",
   "summary": "Malicious code in playwright-atoned (PyPI)",
-  "details": "The package exfiltrates sensitive data like local environmental variables and cloud tokens\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-05-playwright-acustomed\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-cloud-tokens\n\n\n - exfiltration-env-variables\n\n\n - exfiltration-generic\n\n\n - clones-real-package\n\n",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: kam193 (250795bc04569c6f87e372e4b6bed019148a1c78f4357e8e430c1865acfead07)\nThe package exfiltrates sensitive data like local environmental variables and cloud tokens\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-05-playwright-acustomed\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-cloud-tokens\n\n\n - exfiltration-env-variables\n\n\n - exfiltration-generic\n\n\n - clones-real-package\n",
   "affected": [
     {
       "package": {
@@ -47,11 +47,11 @@
     },
     "malicious-packages-origins": [
       {
-        "source": "kam193",
-        "sha256": "250795bc04569c6f87e372e4b6bed019148a1c78f4357e8e430c1865acfead07",
-        "import_time": "2026-05-06T20:57:19.782684359Z",
         "id": "pypi/2026-05-playwright-acustomed/playwright-atoned",
+        "import_time": "2026-05-06T20:57:19.782684359Z",
         "modified_time": "2026-05-06T20:07:00.337114Z",
+        "sha256": "250795bc04569c6f87e372e4b6bed019148a1c78f4357e8e430c1865acfead07",
+        "source": "kam193",
         "versions": [
           "0.1.0",
           "1.1.0",
