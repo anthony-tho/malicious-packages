@@ -28,16 +28,7 @@
       {
         "import_time": "2025-10-30T18:08:39.388740359Z",
         "modified_time": "2025-10-30T17:38:57Z",
-        "ranges": [
-          {
-            "events": [
-              {
-                "introduced": "0"
-              }
-            ],
-            "type": "SEMVER"
-          }
-        ],
+        "versions": ["0.0.1"],
         "sha256": "f3931756a8f0da8b385e1c2b974c51fef803ddf8c0c6cb84ed0dacf3b3e6c1bd",
         "source": "amazon-inspector"
       }
