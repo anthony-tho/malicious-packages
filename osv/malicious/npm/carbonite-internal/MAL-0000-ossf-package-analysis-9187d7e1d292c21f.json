@@ -1,0 +1,42 @@
+{
+  "modified": "2026-05-06T06:20:35Z",
+  "published": "2026-05-06T06:20:35Z",
+  "schema_version": "1.7.4",
+  "id": "",
+  "summary": "Malicious code in carbonite-internal (npm)",
+  "details": "The OpenSSF Package Analysis project identified 'carbonite-internal' @ 99.9.0 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "carbonite-internal"
+      },
+      "versions": [
+        "99.9.0"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "type": "FINDER",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ]
+    }
+  ],
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "9187d7e1d292c21fa0cb37a0ef02fbc1ebcd489eb60d2bc753329f0f27d275ee",
+        "import_time": "2026-05-06T08:20:09.872382207Z",
+        "modified_time": "2026-05-06T06:20:35Z",
+        "versions": [
+          "99.9.0"
+        ]
+      }
+    ]
+  }
+}
