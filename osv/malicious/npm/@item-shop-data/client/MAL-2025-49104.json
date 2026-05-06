@@ -11,18 +11,7 @@
         "ecosystem": "npm",
         "name": "@item-shop-data/client"
       },
-      "ranges": [
-        {
-          "type": "SEMVER",
-          "events": [
-            {
-              "introduced": "0"
-            }
-          ]
-        }
-      ]
-    }
-  ],
+  "versions": ["0.0.1"],
   "credits": [
     {
       "name": "Amazon Inspector",
