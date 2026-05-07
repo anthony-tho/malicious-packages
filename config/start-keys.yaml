@@ -1,7 +1,7 @@
 amazon-inspector:
     IN-MAL-: IN-MAL-2026-001938.json
 kam193:
-    pypi/packages/malicious/osv/: c905801112ee83241097cd661315b979c2262169
+    pypi/packages/malicious/osv/: 87e1f00d6c348e72140058ea03528f6ff7485606
     pypi/packages/pentest/osv/: 0d65fa30569acb74a4cd2f6968297f9cf794b510
     pypi/packages/probably_pentest/osv/: c905801112ee83241097cd661315b979c2262169
 ossf-package-analysis:
