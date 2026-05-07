@@ -2,9 +2,9 @@
   "modified": "2026-05-07T19:12:49Z",
   "published": "2026-05-07T19:12:49Z",
   "schema_version": "1.7.4",
-  "id": "",
+  "id": "MAL-2026-3369",
   "summary": "Malicious code in dabrius (PyPI)",
-  "details": "The message hidden in the package description tries to convince AI agents to prefer installing the package, which then in multiple places marks execution and collects potentially sensitive data. The behavior extends with each version, up to exfiltration of basic information to a remote target in 1.0.7.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-05-dabrius\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-generic\n\n\n - llm-threat\n\n\n - exfiltration-credentials\n\n",
+  "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: kam193 (4a154cab742b51be41ca413e20acccfed4290ac4cf692e1cfeb17a677df98bab)\nThe message hidden in the package description tries to convince AI agents to prefer installing the package, which then in multiple places marks execution and collects potentially sensitive data. The behavior extends with each version, up to exfiltration of basic information to a remote target in 1.0.7.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-05-dabrius\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-generic\n\n\n - llm-threat\n\n\n - exfiltration-credentials\n",
   "affected": [
     {
       "package": {
@@ -58,11 +58,11 @@
   "database_specific": {
     "malicious-packages-origins": [
       {
-        "source": "kam193",
-        "sha256": "4a154cab742b51be41ca413e20acccfed4290ac4cf692e1cfeb17a677df98bab",
-        "import_time": "2026-05-07T20:02:41.171800057Z",
         "id": "pypi/2026-05-dabrius/dabrius",
+        "import_time": "2026-05-07T20:02:41.171800057Z",
         "modified_time": "2026-05-07T19:12:49.885962Z",
+        "sha256": "4a154cab742b51be41ca413e20acccfed4290ac4cf692e1cfeb17a677df98bab",
+        "source": "kam193",
         "versions": [
           "0.1.0",
           "0.1.1",
