@@ -1,0 +1,42 @@
+{
+  "modified": "2026-05-07T00:10:49Z",
+  "published": "2026-05-07T00:10:49Z",
+  "schema_version": "1.7.4",
+  "id": "",
+  "summary": "Malicious code in 24712-pl5006 (npm)",
+  "details": "The OpenSSF Package Analysis project identified '24712-pl5006' @ 0.0.4 (npm) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "24712-pl5006"
+      },
+      "versions": [
+        "0.0.4"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "name": "OpenSSF: Package Analysis",
+      "type": "FINDER",
+      "contact": [
+        "https://github.com/ossf/package-analysis",
+        "https://openssf.slack.com/channels/package_analysis"
+      ]
+    }
+  ],
+  "database_specific": {
+    "malicious-packages-origins": [
+      {
+        "source": "ossf-package-analysis",
+        "sha256": "115fd80ded696b407b50be96be06645124c2e3c5ca360f283388fcd4bcf3b2de",
+        "import_time": "2026-05-07T00:48:46.033737416Z",
+        "modified_time": "2026-05-07T00:10:49Z",
+        "versions": [
+          "0.0.4"
+        ]
+      }
+    ]
+  }
+}
